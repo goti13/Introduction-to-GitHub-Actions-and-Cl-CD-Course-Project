@@ -104,8 +104,40 @@ Lesson Details:
 
 - Clone it to your local machine.
 
+![image](https://github.com/user-attachments/assets/d3e4591f-76fe-45e2-aa14-3ccef13b743d)
+
 
 ![image](https://github.com/user-attachments/assets/8b5cf9c9-0bc3-4280-9a0e-0e3ba0de7ced)
+
+
+2. Create a Simple Node.js Application:
+
+- Initialize a Node.js project ('npm init').
+
+![image](https://github.com/user-attachments/assets/f9f35b79-4e26-40fa-b55b-870b5023f920)
+
+
+- Create a simple server using Express.js to serve a static web page.
+
+```
+
+// Example: index.js
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
+app.listen(port, () => {
+  console.log(`App listening at http://localhost:${port}`);
+});
+
+```
+
+- Add your code to the repository and push it to GitHub
+
 
 
 
