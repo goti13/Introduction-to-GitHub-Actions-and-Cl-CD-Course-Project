@@ -1,0 +1,19 @@
+{
+  "name": "introduction-to-github-actions-and-cl-cd-course-project",
+  "version": "1.0.0",
+  "description": "Introduction to GitHub Actions and Cl/ CD Course Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goti13/Introduction-to-GitHub-Actions-and-Cl-CD-Course-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goti13/Introduction-to-GitHub-Actions-and-Cl-CD-Course-Project/issues"
+  },
+  "homepage": "https://github.com/goti13/Introduction-to-GitHub-Actions-and-Cl-CD-Course-Project#readme"
+}
