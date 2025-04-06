@@ -48,3 +48,6 @@ jobs:
         # Runs tests as defined in the project's package.json
         run: npm test
 
+      - name: Debug npm issues
+        run: cat /home/runner/.npm/_logs/*.log
+
